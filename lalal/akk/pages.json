@@ -1,0 +1,109 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/home",
+			"style": {
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+		    "path" : "pages/cart/cart",
+		    "style" : {
+				"navigationBarTitleText":"购物车"
+			}
+		},
+		{
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/details/details",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarTitleText": "列表",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		}
+        ,{
+            "path" : "pages/evaluate/evaluate",
+            "style" : {
+				"navigationBarTitleText": "评价"
+			}
+        }
+        ,{
+            "path" : "pages/settlement/settlement",
+            "style" : {
+				"navigationBarTitleText": "结算"
+			}
+        }
+        ,{
+            "path" : "pages/swiper/swiper",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		 "navigationStyle": "custom"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#333",
+		"color": "#FFFFFF",
+		"selectedColor": "#F0AD4E",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "",
+				"selectedIconPath": "",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"iconPath": "",
+				"selectedIconPath": "",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"iconPath": "",
+				"selectedIconPath": "",
+				"text": "购物车"
+				
+			},
+			{
+				"pagePath": "pages/order/order",
+				"iconPath": "",
+				"selectedIconPath": "",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "",
+				"selectedIconPath": "",
+				"text": "我"
+			}
+		]
+	}
+}
